@@ -1,0 +1,16 @@
+{
+  "name": "hietan-skills",
+  "interface": {
+    "displayName": "Hietan Skills"
+  },
+  "plugins": [
+    {
+      "name": "hietan-workflows",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

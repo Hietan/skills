@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hietan-workflows",
+  "version": "0.1.0",
+  "description": "Shared Git commit and ghq repository management workflows.",
+  "author": {
+    "name": "Hietan"
+  },
+  "homepage": "https://github.com/Hietan/skills",
+  "repository": "https://github.com/Hietan/skills",
+  "keywords": [
+    "git",
+    "ghq",
+    "workflow",
+    "skills"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Hietan Workflows",
+        "shortDescription": "Consistent Git commits and repository placement",
+        "longDescription": "Apply shared commit message, AI attribution, and ghq repository acquisition rules.",
+        "developerName": "Hietan",
+        "category": "Productivity"
+      }
+    }
+  }
+}
